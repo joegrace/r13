@@ -1,0 +1,3 @@
+To build:
+nasm -g -f elf64 -o r13.o r13.s 
+ld -o r13 r13.o
